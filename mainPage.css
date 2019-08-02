@@ -1,0 +1,58 @@
+body {
+    font-family: Oswald, Arial;
+    letter-spacing: 2px;
+}
+
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#page {
+    background-color:#E4F1FE;
+    width: 80%;
+    margin: 0 auto;
+    height: 770px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    font-family: Oswald, Arial;
+    letter-spacing: 2px;
+    font-size: 1em;
+    position:relative;
+    top: 40%; 
+    left: 13%;
+    margin-top: 25%;
+}
+
+#buttons {
+    margin: 0 auto;
+    width:  49%;
+    height: 40%;
+    border: 1px solid rgba(103,128,159, 0.4);
+}
+
+#teach {
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 32px;
+    border: 1px solid white;
+}
+
+#learn {
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 31px;
+    border: 1px solid white;
+}
