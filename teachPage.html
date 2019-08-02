@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>CMC Peer Tutoring</title>
+        <link rel="stylesheet" type="text/css" href="../static/teachPage.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <script src="teachPage.js"></script>
+    </head>
+
+    <body>
+        <section id="page">
+            <form action="http://127.0.0.1:5000/teach" method="POST">
+                    <fieldset>
+                    <legend>Personal information:</legend>
+                    First and Last name:<br>
+                        <input type="text" name="name" onBlur="validateName(this, 'Your first name can only contain alphabetical characters')" size="35"><br>
+                    Course number:<br>
+                        <select class="dropdown" name= "course">
+                            <option value="">------</option>
+                            <option value="ECON-50">ECON50</option>
+                            <option value="GOV 20">GOV20</option>
+                            <option value="GOV 60">GOV60</option>
+                            <option value="CALC 1">CALC1</option>
+                            <option value="CALC 2">CALC2</option>
+                            <option value="CS 5">CS05</option>
+                            <option value="BIO 44">BIO44</option>
+                        </select><br><br>
+
+                    Major:<br>
+                        <select class="dropdown" name="major">
+                            <option value="">------</option>
+                            <option value="Math">Math</option>
+                            <option value="Economics">Economics</option>
+                            <option value="English">English</option>
+                            <option value="Psychology">Psychology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="History">History</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Philosophy">Philosophy</option>
+                            <option value="Government">Government</option>
+                            <option value="Psychology">Psychology</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="Neuroscience">Neuroscience</option>,lllk
+                            <option value="Religious Studies">Religious Studies</option>
+                            <option value="Economics-Accounting">Economics Accounting</option>
+                            <option value="French">French</option>
+                            <option value="Science Management">Science Management</option>
+                            <option value="Asian Studies">Asian Studies</option>
+                            <option value="Management Engineering">Management Engineering</option>
+                            <option value="Film Studies">Film Studies</option>
+                            <option value="Classical Studies">Classical Studies</option>
+                            <option value="American Studies">American Studies</option>
+                            <option value="Biophysics">Biophysics</option>
+                            <option value="EEP">EEP</option>
+                            <option value="International Relations">International Relations</option>
+                            <option value="Economics-Engineering">Economics-Engineering</option>
+                            <option value="Environmental Analysis Program">Environmental Analysis Program</option>
+                            <option value="Organismal Biology">Organismal Biology</option>
+                            <option value="PPE">PPE</option>
+                            <option value="Middle East Studies">Middle East Studies</option>
+                        </select><br><br>
+
+                    Email address:<br>
+                        <input type="email" name="email" onBlur="validateEmail(this, '  invalid email')"><br>
+                        
+                        <button id="submit" type="submit" name="submit" value="enterform">Submit</button>
+                    </fieldset>
+                </form>
+                </div>
+        </section>
+        
+
+
+    </body>
+
+</html>
