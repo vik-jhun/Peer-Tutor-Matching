@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>CMC Peer Tutoring</title>
+        <link rel="stylesheet" type="text/css" href="../static/learnPageOutput.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="page">
+            <div id="content">
+                <h1>Tutors for that major area:</h1>
+                <span class="output">{{output1}}</span><br><br><br><br><br><br><br>
+                <h1>Tutors for that course code:</h1>
+                <span class="output">{{output2}}</span><br><br>
+
+            <form action="http://127.0.0.1:5000/learnoutput" method="POST">
+                <button id="one" name="submit" type="submit" value="goback">Return</button>
+            </form>
+
+        </div>
+
+
+        </section>
+        
+    </body>
+
+</html>
