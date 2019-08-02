@@ -10,4 +10,4 @@ Ideally, the tutee would reach out to the tutor through email or other social me
 
 Limitations: This project can benefit from more user-friendly functions like a chat-box, the ability for tutors to remove themselves from the list, and javascript form validation.
 
-Note: If after running the Python on Flask, the CSS seems off, you may need to delete your browser cache.
+Note: If you would like better website design, I will happily share function HTML and CSS files for this web-app upon request.
