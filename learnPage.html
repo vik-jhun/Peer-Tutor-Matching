@@ -1,0 +1,81 @@
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Learn Page</title>
+    <link rel="stylesheet" type="text/css" href="../static/learnPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">	
+  </head>
+
+
+
+  <body>
+    <section id="page">
+	  <p id="title"> Major and Course Selection</p>
+	  <div id="frame">
+
+    <div id="hello">
+    <div id="section">
+    <p class="topic">Choose Major Area</p>
+
+    <form action="http://127.0.0.1:5000/learn" method="POST">
+
+    <select name="Major" class="dropdown">
+      <option value="">------</option>
+      <option value="Math">Math</option>
+      <option value="Economics">Economics</option>
+      <option value="English">English</option>
+      <option value="Psychology">Psychology</option>
+      <option value="Chemistry">Chemistry</option>
+      <option value="Biology">Biology</option>
+      <option value="History">History</option>
+      <option value="Physics">Physics</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Philosophy">Philosophy</option>
+      <option value="Government">Government</option>
+      <option value="Psychology">Psychology</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Neuroscience">Neuroscience</option>,lllk
+      <option value="Religious Studies">Religious Studies</option>
+      <option value="Economics-Accounting">Economics Accounting</option>
+      <option value="French">French</option>
+      <option value="Science Management">Science Management</option>
+      <option value="Asian Studies">Asian Studies</option>
+      <option value="Management Engineering">Management Engineering</option>
+      <option value="Film Studies">Film Studies</option>
+      <option value="Classical Studies">Classical Studies</option>
+      <option value="American Studies">American Studies</option>
+      <option value="Biophysics">Biophysics</option>
+      <option value="EEP">EEP</option>
+      <option value="International Relations">International Relations</option>
+      <option value="Economics-Engineering">Economics-Engineering</option>
+      <option value="Environmental Analysis Program">Environmental Analysis Program</option>
+      <option value="Organismal Biology">Organismal Biology</option>
+      <option value="PPE">PPE</option>
+      <option value="Middle East Studies">Middle East Studies</option>
+    </select>
+    </div>
+
+
+    <div id="section1">
+
+    <p class="topic">Choose Course Code</p>
+
+    <select name="Course" class="dropdown">
+      <option value="">------</option>
+      <option value="ECON-50">ECON50</option>
+      <option value="GOV 20">GOV20</option>
+      <option value="GOV 60">GOV60</option>
+      <option value="CALC 1">CALC1</option>
+      <option value="CALC 2">CALC2</option>
+      <option value="CS 5">CS05</option>
+      <option value="BIO 44">BIO44</option>
+    </select>
+    </div>  
+    <button id="one" name="submit" type="submit" value="requestinfo">Submit</button>
+
+  </div>
+</form>
+
+</div>
+  </section>
+  </body>
+</html>
