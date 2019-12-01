@@ -11,3 +11,9 @@ Ideally, the tutee would reach out to the tutor through email or other social me
 Limitations: This project can benefit from more user-friendly functions like a chat-box, the ability for tutors to remove themselves from the list, and javascript form validation.
 
 Note: If you would like better website design, I will happily share function HTML and CSS files for this web-app upon request.
+
+How it works: 
+
+The landing page mimics the functionality of a POST method through the submit button. A user can submit two choices: teach or learn. 
+Use case for teach: The teach functions effectively collects 4 data-points and compiles this in a unified string. When you submit this information, the unified string gets appended to an array of the form NameCourseMajorEmail. This constitutes a dictionary, with frequent user postings, this dictionary gets populated enough to need a key to be indexed. This is where the Learn part of the application comes in. 
+Use case for learn: The learn page employes a similar post method, the output here acts as the key for the dictionary populated by the teach part of the application. By entering one key, the rest of the information in the string is given out. 
